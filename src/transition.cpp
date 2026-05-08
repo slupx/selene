@@ -5,5 +5,5 @@ sel::Transitioner::Transitioner() {
 }
 
 float sel::Transitioner::getValue() {
- 
+  return value;
 }

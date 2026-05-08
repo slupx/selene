@@ -17,9 +17,12 @@ int main() {
       BeginMode3D(camera.getCamera());
         DrawGrid(10, 1.0);
 
-        DrawCube((Vector3){0.0, 0.0, 0.0}, 1.5, 1.5, 1.5, BROWN);
+        DrawCube(Vector3({0, 0, 0}), 1.5, 1.5, 1.5, BROWN);
+        DrawCubeWires(Vector3({0, 0, 0}), 1.5, 1.5, 1.5, DARKBROWN);
         
       EndMode3D();
+
+      DrawFPS(10, 10);
     EndDrawing(); 
   }
 
