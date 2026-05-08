@@ -1,0 +1,4 @@
+-Iinclude
+-lraylib
+-std=c++17
+
