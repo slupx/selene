@@ -8,7 +8,7 @@ else ifeq ($(shell uname),Darwin)
 	INCLUDE_OPTS = -I/opt/homebrew/include -Iinclude \
 		-framework OpenGL -framework Cocoa -framework IOKit
 else ifeq ($(shell uname),Linux)
-	LINK_OPTS = -lraylib -lX11 -lGL -lm -lpthread -ldl -lrtc
+	LINK_OPTS = -lraylib -lX11 -lGL -lm -lpthread -ldl
 	INCLUDE_OPTS = -Iinclude
 endif
 
